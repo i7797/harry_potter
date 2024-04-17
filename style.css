@@ -1,0 +1,81 @@
+*{
+    color: #f3f3f3;
+}
+
+body {
+    background-image: url(./Imges/harryy.png) ;
+    background-size: cover;
+
+ 
+    height: 100vh;
+ 
+}
+
+
+.name{
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 20px;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+p {
+    color: rgb(254, 254, 254);
+    font-size: bold;
+    font-style:italic;
+
+    width: 300px;
+    height: 600px;
+    text-align: left;
+    padding-bottom: 40px;
+     margin-left: 10px;
+    margin-right: 100px;
+
+}
+
+#chars {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 31%;
+    margin-right: 1%;
+   
+}
+
+h1 {
+    color: #010101;
+    font-size: 3em;
+}
+
+
+#chars table {
+    color: white;
+    width: 600px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+#chars th {
+
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+#chars td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+#chars tr {
+    background-color: #392a2a;
+}
